@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family:  'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -19,25 +19,39 @@ main {
   margin: auto;
 
 }
+h1{
+  font-family:'Raleway' sans-serif ;
+  color: #411265;
+  text-shadow: #581c87 0.5rem 0.5rem 1.5rem;
+      margin-bottom: 3rem;
+}
 
 h2 {
+  
   font-size: xx-large;
   margin: 2rem;
+}
+h3{
+  margin-top: 1.5rem;
+}
+h4{
+  margin-top: 5rem;
 }
 
 hr{
   background-color: #581c87;
   margin: 0rem;
+  margin-bottom: 3rem;
   width:auto ;
   height: 1.5px;
 }
 
 input {
   font-size: 17px;
-  font-family:'Montserrat', sans-serif;
+  font-family:sans-serif;
   padding: 0.7rem 0.7rem;
   margin: auto;
-  margin-top: 7rem;
+  margin-top: 2rem;
   
   border: 2px solid var(--primary-color);
   border-radius: 2rem;
@@ -74,7 +88,7 @@ input {
     margin: auto;
     width: auto;
     border-radius: 2rem;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     padding: 1rem;
     font-weight: bold;
 
