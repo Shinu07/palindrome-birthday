@@ -16,7 +16,7 @@ body {
 
 main {
   text-align: center;
-  margin: 3rem;
+  margin: auto;
 
 }
 
@@ -25,14 +25,21 @@ h2 {
   margin: 2rem;
 }
 
+hr{
+  background-color: #581c87;
+  margin: 0rem;
+  width:auto ;
+  height: 1.5px;
+}
 
 input {
   font-size: 17px;
   font-family:'Montserrat', sans-serif;
   padding: 0.7rem 0.7rem;
   margin: auto;
-  margin-top: 1rem;
-  border: 2.5px solid var(--primary-color);
+  margin-top: 7rem;
+  
+  border: 2px solid var(--primary-color);
   border-radius: 2rem;
   width: 100%;
   min-width: 150px;
@@ -67,7 +74,7 @@ input {
     margin: auto;
     width: auto;
     border-radius: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     padding: 1rem;
     font-weight: bold;
 
@@ -90,13 +97,12 @@ footer {
     left: 0;
     right: 0;
     background-color: var(--primary-color);
-    text-align: center;
     height: 80px;
     margin-top: 5rem;
     margin-bottom: 0rem;
-    padding: 0.5rem 0.5rem;
-    border-top-left-radius: 1.1rem;
-    border-top-right-radius: 1.1rem;
+    padding: 0.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
   
   }
   
@@ -106,6 +112,9 @@ footer {
   }
   
   .list-unordered {
+    display: block;
     margin: 1rem;
+    margin-top: 1.5rem;
+    padding-left: 0px;
   }
   
